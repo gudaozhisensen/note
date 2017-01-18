@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-1-10, 13:02:13
+    Author     : lx
+*/
+.body{
+    font-family: arial;
+}
+
+.calendar{
+    width: 322px;
+    background: #cccccc;
+    margin: 100px auto;
+    border: 1px solid black;
+    padding: 30px 20px 30px 55px;/*内边距 距离内容的距离*/
+}
+
+.calendar ul{
+   margin: 0 auto;
+   width: 300px;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+
+.calendar li{
+    margin: 10px 10px 0 0;
+    float: left;
+    width: 78px;
+    height: 72px;
+    background: #fff;
+    cursor: pointer;/*鼠标动作，变成手指*/
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 10px;
+    
+    
+}
+
+.calendar .active{
+    background: #424242;
+    color:#e84a7e;
+    border: 1px solid #e84a7e;
+}
+
+
+.content{
+    width: 240px;
+    background: #f1f1f1;
+    padding: 10px;
+  
+    margin: 5px 10px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 16px;
+}
